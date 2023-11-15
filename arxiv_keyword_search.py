@@ -16,7 +16,7 @@ except ValueError:
     sys.exit(1)
 
 # Define your search keyword(s) here
-keywords = ["planning", "multi-robot"]
+keywords = ["planning"]
 
 # Calculate the date N days ago in YYYYMMDD format
 n_days_ago = (datetime.now() - timedelta(number_of_days)).strftime('%Y%m%d')
